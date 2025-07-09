@@ -1,0 +1,89 @@
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+}
+
+h1 {
+    color: #39ff14;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffa500;
+    text-shadow: 1px 1px 3px #000;
+}
+
+nav a,
+a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 18px;
+    background-color: #1a1a1a;
+    color: #39ff14;
+    text-decoration: none;
+    border: 2px solid #39ff14;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover,
+a:hover {
+    background-color: #39ff14;
+    color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: #222;
+    color: #f0f0f0;
+    border: 1px solid #39ff14;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #262626;
+    color: #39ff14;
+    border: 2px solid #39ff14;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #39ff14;
+    color: #000;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-left: 4px solid #ffa500;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #000;
+}
+
+p {
+    line-height: 1.6;
+}
