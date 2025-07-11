@@ -1,8 +1,8 @@
 <?php
-$host = "sql301.infinityfree.com";   
-$user = "if0_38941618";      
-$pass = "GravityCraft102";      
-$db   = "if0_38941618_dt_gelatino"; 
+$host = "";   
+$user = "";      
+$pass = "";      
+$db   = ""; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
