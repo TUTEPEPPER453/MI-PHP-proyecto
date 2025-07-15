@@ -33,12 +33,11 @@ include('db.php');
         $sql = "INSERT INTO tutoriales_codz (titulo, mapa, descripcion, video_url)
                 VALUES ('$titulo', '$mapa', '$descripcion', '$video')";
         $resultado = mysqli_query($conn, $sql);
-
-        if ($resultado) {
-            echo "<p style='color:limegreen;'>Tutorial guardado con éxito </p>";
-        } else {
-            echo "<p style='color:red;'>Error al guardar. Inténtalo de nuevo </p>";
-        }
+        <?php if ($resultado): ?>
+            <div class="mensaje exito">Tutorial guardado con éxito</div>
+        <?php else: ?>
+            <div class="mensaje error">Error al guardar. Inténtalo de nuevo</div>
+        <?php endif; ?>
     }
     ?>
 </body>
