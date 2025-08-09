@@ -153,7 +153,7 @@ $categorias = $conn->query("SELECT id, nombre FROM categorias");
   <div class="sidebar">
     <h2>Admin</h2>
     <nav>
-      <a onclick="mostrarSeccion('tutoriales')" Tutoriales</a>
+      <a onclick="mostrarSeccion('tutoriales')">Tutoriales</a>
       <a onclick="mostrarSeccion('comentarios')">💬 Comentarios</a>
       <a onclick="mostrarSeccion('usuarios')"> Usuarios</a>
     </nav>
